@@ -1,9 +1,11 @@
 [bar/i3wmthemer_bar]
+monitor = 
 bottom = true
 width = 100%
-height = 32
+height = 70
 radius = 0
 fixed-center = false
+dpi=220
 
 background = #1E272B
 foreground = #EAD49B
@@ -35,6 +37,7 @@ cursor-click = pointer
 cursor-scroll = ns-resize
 
 [bar/i3wmthemer_bar_second_monitor]
+monitor = DVI-D-1
 bottom = true
 width = 100%
 height = 32
@@ -79,7 +82,7 @@ label-mode-foreground = #1E272B
 label-mode-background = #78824b
 
 label-focused = %index%
-label-focused-background = #78824b
+label-focused-background = #D99F57
 label-focused-foreground = #6b7443
 label-focused-padding = 2
 
