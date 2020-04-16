@@ -28,42 +28,7 @@ font-2 = "Font Awesome 5 Brands:size=10;1"
 
 modules-left = i3
 ;modules-center = date
-modules-right = wlan eth date2 date powermenu
-
-tray-position =
-;tray-padding =
-
-cursor-click = pointer
-cursor-scroll = ns-resize
-
-[bar/i3wmthemer_bar_second_monitor]
-monitor = DVI-D-1
-bottom = true
-width = 100%
-height = 32
-radius = 0
-fixed-center = false
-
-background = #1E272B
-foreground = #EAD49B
-
-line-size = 3
-line-color =
-
-border-size = 0
-border-color =
-
-padding-left = 0
-padding-right = 2
-
-module-margin-left = 0
-module-margin-right = 2
-
-font-0 = "Source Code Pro Semibold:size=10;1"
-font-1 = "Font Awesome 5 Free:style=Solid:size=10;1"
-font-2 = "Font Awesome 5 Brands:size=10;1"
-
-modules-left = i3
+modules-right = battery wlan eth date2 date powermenu
 
 tray-position =
 ;tray-padding =
@@ -102,9 +67,47 @@ label-urgent-padding = 2
 
 pin-workspaces = true
 
+[module/battery]
+type = internal/battery
+battery = BAT0
+poll-interval = 5
+time-format = %H:%M
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+;format-full = <ramp-capacity> <label-full>
+label-charging =  %percentage%%
+label-discharging = %percentage%%
+label-full = 
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+
+; Only applies if <bar-capacity> is used
+bar-capacity-width = 10
+
+; Only applies if <animation-charging> is used
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+; Framerate in milliseconds
+animation-charging-framerate = 750
+
+; Only applies if <animation-discharging> is used
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-3 = 
+animation-discharging-4 = 
+; Framerate in milliseconds
+animation-discharging-framerate = 500
+
 [module/wlan]
 type = internal/network
-interface = net1
+interface = wlan0
 interval = 3.0
 
 format-connected = <ramp-signal> <label-connected>

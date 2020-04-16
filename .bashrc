@@ -120,3 +120,5 @@ fi
 export QSYS_ROOTDIR="/opt/intelFPGA_lite/18.1/quartus/sopc_builder/bin"
 PATH="/home/paul/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin/intelFPGA_lite/18.1/quartus/bin/"
 alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
+
+export PATH="$HOME/.cargo/bin:$PATH"
