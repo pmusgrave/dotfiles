@@ -32,10 +32,10 @@ URxvt.geometry: 90x30
 URxvt.background: COLOR_BACKGROUND
 
 rofi.color-enabled: true
-rofi.color-window: #1E272B, #9D6A47, #9D6A47
-rofi.color-normal: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
-rofi.color-active: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
-rofi.color-urgent: #1E272B, #EAD49B, #1E272B, #1E272B, #78824B
+rofi.color-window: COLOR_BACKGROUND, COLOR_TEXT_WARN, COLOR_TEXT_WARN
+rofi.color-normal: COLOR_BACKGROUND, COLOR_TEXT_WARN, COLOR_BACKGROUND, COLOR_BACKGROUND, COLOR_WHITE
+rofi.color-active: COLOR_BACKGROUND, COLOR_TEXT_WARN, COLOR_BACKGROUND, COLOR_BACKGROUND, COLOR_WHITE
+rofi.color-urgent: COLOR_BACKGROUND, COLOR_TEXT_WARN, COLOR_BACKGROUND, COLOR_BACKGROUND, COLOR_WHITE
 
 rofi.separator-style: solid
 rofi.sidebar-mode: false
