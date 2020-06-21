@@ -1,3 +1,5 @@
+#include "/home/paul/.config/colors"
+
 set $mod Mod4
 
 new_window pixel 1
@@ -228,12 +230,29 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id /$HOME/.config/polybar/i3wmthemer_bar_launch.sh
 
 # Theme colors
-client.focused #EAD49B #9D6A47 #E8E8E8 #9D6A47 #9D6A47
-client.focused_inactive #EAD49B #1E272B #EAD49B #78824B #78824B
-client.unfocused #EAD49B #1E272B #EAD49B #78824B #78824B
-client.urgent #EAD49B #1E272B #EAD49B #78824B #78824B
-client.placeholder #EAD49B #1E272B #EAD49B #78824B #78824B
-client.background #1E272B
+set_from_resource $black color0 #000000
+set_from_resource $red color1 #000000
+set_from_resource $yellow color2 #000000
+set_from_resource $green color3 #000000
+set_from_resource $blue color4 #000000
+set_from_resource $magenta color5 #000000
+set_from_resource $cyan color6 #000000
+set_from_resource $white color7 #000000
+set_from_resource $black_bright color8 #000000
+set_from_resource $red_bright color9 #000000
+set_from_resource $yellow_bright color10 #000000
+set_from_resource $green_bright color11 #000000
+set_from_resource $blue_bright color12 #000000
+set_from_resource $magenta_bright color13 #000000
+set_from_resource $cyan_bright color14 #000000
+set_from_resource $white_bright color15 #000000
+#color: border  backgr. text  indicator
+client.focused #000000 $black $white $blue
+client.focused_inactive #000000 $black $white $blue
+client.unfocused $black $black $yellow $blue
+client.urgent $black $black $red $blue
+client.placeholder $black $black green $blue
+client.background $black
 
 # Gaps
 gaps inner 10

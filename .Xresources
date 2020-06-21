@@ -1,23 +1,25 @@
-background: #1E272B
-*foreground: #EAD49B
-*cursorColor: #EAD49B
+#include "/home/paul/.config/colors"
 
-*color0: #1E272B
-*color8: #666666
-*color1: #685742
-*color9: #685743
-*color2: #9D6A47
-*color10: #9D6A47
-*color3: #B36D43
-*color11: #B36D43
-*color4: #78824B
-*color12: #78824B
-*color5: #D99F57
-*color13: #D99F57
-*color6: #C9A554
-*color14: #C9A554
-*color7: #EAD49B
-*color15:#E8E8E8
+*background: COLOR_BACKGROUND
+*foreground: COLOR_TEXT_NORMAL
+*cursorColor: COLOR_TEXT_NORMAL
+
+*color0: COLOR_BACKGROUND
+*color1: COLOR_TEXT_ERR
+*color2: COLOR_TEXT_WARN
+*color3: COLOR_TEXT_NORMAL
+*color4: COLOR_BLUE
+*color5: COLOR_TEXT_ERR
+*color6: COLOR_CYAN
+*color7: COLOR_WHITE
+*color8: COLOR_BACKGROUND
+*color9: COLOR_TEXT_ERR
+*color10: COLOR_TEXT_WARN_BRIGHT
+*color11: COLOR_TEXT_NORMAL_BRIGHT
+*color12: COLOR_BLUE
+*color13: COLOR_TEXT_ERR
+*color14: COLOR_CYAN
+*color15: COLOR_WHITE
 
 URxvt.font: xft:Source Code Pro:size=10.5
 URxvt.depth:                      32
@@ -27,7 +29,7 @@ URxvt*cursorBlink:                true
 URxvt*saveLines:                  5000
 URxvt*internalBorder: 5
 URxvt.geometry: 90x30
-URxvt.background: [90]#1E272B
+URxvt.background: COLOR_BACKGROUND
 
 rofi.color-enabled: true
 rofi.color-window: #1E272B, #9D6A47, #9D6A47
