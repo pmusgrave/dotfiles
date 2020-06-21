@@ -293,3 +293,8 @@ focus_follows_mouse off
 mouse_warping none
 bindsym $mod+Mod1+l exec "/home/paul/bin/lock.sh"
 #exec_always ~/.config/polybar/polybar.sh &
+
+# automate initial programs on boot
+exec --no-startup-id i3-resurrect restore -w 1 -d /home/paul/.config/i3/
+exec --no-startup-id i3-resurrect restore -w 2 -d /home/paul/.config/i3/
+exec --no-startup-id i3-resurrect restore -w 3 -d /home/paul/.config/i3/

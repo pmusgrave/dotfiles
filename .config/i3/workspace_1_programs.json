@@ -1,0 +1,14 @@
+[
+  {
+    "command": [
+      "/usr/bin/urxvt"
+    ],
+    "working_directory": "/home/paul"
+  },
+  {
+    "command": [
+      "/usr/bin/emacs-26.3"
+    ],
+    "working_directory": "/home/paul"
+  }
+]
