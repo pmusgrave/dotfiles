@@ -1,7 +1,7 @@
 [
   {
     "command": [
-      "/opt/spotify/spotify"
+      "/usr/lib/firefox/firefox"
     ],
     "working_directory": "/home/paul"
   }

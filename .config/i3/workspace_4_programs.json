@@ -1,7 +1,7 @@
 [
   {
     "command": [
-      "/usr/bin/urxvt"
+      "/opt/spotify/spotify"
     ],
     "working_directory": "/home/paul"
   }

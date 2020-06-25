@@ -1,7 +1,7 @@
 [
   {
     "command": [
-      "/usr/lib/firefox/firefox"
+      "/usr/bin/emacs-26.3"
     ],
     "working_directory": "/home/paul"
   }

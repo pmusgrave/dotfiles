@@ -12,7 +12,7 @@
   "layout": "splith",
   "name": "1",
   "orientation": "horizontal",
-  "percent": null,
+  "percent": 0.3333333333333333,
   "scratchpad_state": "none",
   "sticky": false,
   "type": "workspace",
@@ -29,7 +29,7 @@
         "width": 0,
         "height": 0
       },
-      "layout": "tabbed",
+      "layout": "splith",
       "name": null,
       "orientation": "horizontal",
       "percent": null,
@@ -52,7 +52,7 @@
           "layout": "splith",
           "name": "paul@paul-laptop: ~/.config/i3",
           "orientation": "none",
-          "percent": 0.5,
+          "percent": 1.0,
           "scratchpad_state": "none",
           "sticky": false,
           "type": "con",
@@ -61,32 +61,6 @@
             {
               "class": "^URxvt$",
               "instance": "^urxvt$"
-            }
-          ]
-        },
-        {
-          "border": "pixel",
-          "current_border_width": 3,
-          "floating": "auto_off",
-          "fullscreen_mode": 0,
-          "geometry": {
-            "x": 0,
-            "y": 0,
-            "width": 1472,
-            "height": 1454
-          },
-          "layout": "splith",
-          "name": "emacs-26.3@paul-laptop",
-          "orientation": "none",
-          "percent": 0.5,
-          "scratchpad_state": "none",
-          "sticky": false,
-          "type": "con",
-          "workspace_layout": "default",
-          "swallows": [
-            {
-              "class": "^Emacs$",
-              "instance": "^emacs\\-26_3$"
             }
           ]
         }
