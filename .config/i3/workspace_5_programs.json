@@ -1,0 +1,8 @@
+[
+  {
+    "command": [
+      "/opt/Pomello/pomello"
+    ],
+    "working_directory": "/home/paul"
+  }
+]
