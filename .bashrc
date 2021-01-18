@@ -121,3 +121,26 @@ fi
 
 export QSYS_ROOTDIR="/opt/intelFPGA_lite/18.1/quartus/sopc_builder/bin"
 PATH="/home/paul/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/bin/intelFPGA_lite/18.1/quartus/bin/"
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH"
+alias config='/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME'
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/paul/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/paul/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/paul/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/paul/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+alias ec='emacsclient -n'
