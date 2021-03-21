@@ -148,13 +148,13 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(mode-line ((,class (:background ,funk-bg :foreground ,funk-fg+1))))
    `(mode-line-inactive
      ((,class (:background ,funk-fg-05 :foreground ,funk-fg))))
-   `(header-line ((,class (:background ,funk-fg+1 :foreground ,funk-fg+2))))
+   `(header-line ((,class (:background ,funk-bg+1 :foreground ,funk-fg+2))))
    ;; Escape and prompt faces
    `(minibuffer-prompt ((,class (:foreground ,funk-blue :weight bold))))
    ;; Font lock faces
    `(font-lock-builtin-face ((,class (:foreground ,funk-blue))))
-   `(font-lock-comment-face ((,class (:foreground ,funk-green))))
-   `(font-lock-comment-delimiter-face ((t (:foreground ,funk-green-4))))
+   `(font-lock-comment-face ((,class (:foreground ,funk-green-4))))
+   `(font-lock-comment-delimiter-face ((t (:foreground ,funk-green))))
    `(font-lock-constant-face ((,class (:foreground ,funk-blue))))
    `(font-lock-doc-face ((t (:foreground ,funk-green+2))))
    `(font-lock-function-name-face
@@ -207,6 +207,56 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(message-header-subject ((,class (:foreground ,funk-fg+1))))
    `(message-header-to ((,class (:foreground ,funk-blue))))
    `(message-cited-text ((,class (:foreground ,funk-green))))
-   `(message-separator ((,class (:foreground ,funk-cyan))))))
+   `(message-separator ((,class (:foreground ,funk-cyan))))
+
+;;;;; helm
+   `(helm-header
+     ((t (:foreground ,funk-green
+                      :background ,funk-bg
+                      :underline nil
+                      :box nil
+                      :extend t))))
+   `(helm-source-header
+     ((t (:foreground ,funk-yellow
+                      :background ,funk-bg-1
+                      :underline nil
+                      :weight bold
+                      :box (:line-width -1 :style released-button)
+                      :extend t))))
+   `(helm-selection ((t (:background ,funk-bg+1 :underline nil))))
+   `(helm-selection-line ((t (:background ,funk-bg+1))))
+   `(helm-visible-mark ((t (:foreground ,funk-bg :background ,funk-yellow-2))))
+   `(helm-candidate-number ((t (:foreground ,funk-green+4 :background ,funk-bg-1))))
+   `(helm-separator ((t (:foreground ,funk-red :background ,funk-bg))))
+   `(helm-time-zone-current ((t (:foreground ,funk-green+2 :background ,funk-bg))))
+   `(helm-time-zone-home ((t (:foreground ,funk-red :background ,funk-bg))))
+   `(helm-bookmark-addressbook ((t (:foreground ,funk-orange :background ,funk-bg))))
+   `(helm-bookmark-directory ((t (:foreground nil :background nil :inherit helm-ff-directory))))
+   `(helm-bookmark-file ((t (:foreground nil :background nil :inherit helm-ff-file))))
+   `(helm-bookmark-gnus ((t (:foreground ,funk-magenta :background ,funk-bg))))
+   `(helm-bookmark-info ((t (:foreground ,funk-green+2 :background ,funk-bg))))
+   `(helm-bookmark-man ((t (:foreground ,funk-yellow :background ,funk-bg))))
+   `(helm-bookmark-w3m ((t (:foreground ,funk-magenta :background ,funk-bg))))
+   `(helm-buffer-not-saved ((t (:foreground ,funk-red :background ,funk-bg))))
+   `(helm-buffer-process ((t (:foreground ,funk-cyan :background ,funk-bg))))
+   `(helm-buffer-saved-out ((t (:foreground ,funk-fg :background ,funk-bg))))
+   `(helm-buffer-size ((t (:foreground ,funk-fg-1 :background ,funk-bg))))
+   `(helm-ff-directory ((t (:foreground ,funk-cyan :background ,funk-bg :weight bold))))
+   `(helm-ff-file ((t (:foreground ,funk-fg :background ,funk-bg :weight normal))))
+   `(helm-ff-executable ((t (:foreground ,funk-green+2 :background ,funk-bg :weight normal))))
+   `(helm-ff-invalid-symlink ((t (:foreground ,funk-red :background ,funk-bg :weight bold))))
+   `(helm-ff-symlink ((t (:foreground ,funk-yellow :background ,funk-bg :weight bold))))
+   `(helm-ff-prefix ((t (:foreground ,funk-bg :background ,funk-yellow :weight normal))))
+   `(helm-grep-cmd-line ((t (:foreground ,funk-cyan :background ,funk-bg))))
+   `(helm-grep-file ((t (:foreground ,funk-fg :background ,funk-bg))))
+   `(helm-grep-finish ((t (:foreground ,funk-green+2 :background ,funk-bg))))
+   `(helm-grep-lineno ((t (:foreground ,funk-fg-1 :background ,funk-bg))))
+   `(helm-grep-match ((t (:foreground ,funk-fg :background ,funk-bg :inherit helm-match))))
+   `(helm-grep-running ((t (:foreground ,funk-red :background ,funk-bg))))
+   `(helm-match ((t (:foreground ,funk-orange :background ,funk-bg-1 :weight bold))))
+   `(helm-moccur-buffer ((t (:foreground ,funk-cyan :background ,funk-bg))))
+   `(helm-mu-contacts-address-face ((t (:foreground ,funk-fg-1 :background ,funk-bg))))
+   `(helm-mu-contacts-name-face ((t (:foreground ,funk-fg :background ,funk-bg))))
+   ))
 
   (provide-theme 'funk)
