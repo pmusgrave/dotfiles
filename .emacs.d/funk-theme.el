@@ -139,7 +139,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(cursor ((,class (:background ,funk-green))))
    ;; Highlighting faces
    `(fringe ((,class (:background ,funk-bg+1))))
-   `(highlight ((,class (:background ,funk-bg+1 :foreground ,funk-fg))))
+   `(highlight ((,class (:background ,funk-bg+1))))
    `(region ((,class (:background ,funk-bg+3 :foreground ,funk-fg))))
    `(isearch ((,class (:background ,funk-yellow :foreground ,funk-bg-2))))
    `(lazy-highlight ((,class (:background ,funk-bg+3))))
