@@ -44,7 +44,7 @@ defining them in this alist."
     ("funk-red"      . "#a64253")
     ("funk-red+1"    . "#b54c5e")
     ("funk-red+2"    . "#d15a6e")
-    ("funk-orange"   . "#ff7700")
+    ("funk-orange"   . "#d97c2b")
     ("funk-yellow-2" . "#c78a02")
     ("funk-yellow-1" . "#ffcc00")
     ("funk-yellow"   . "#ffb000")
@@ -156,7 +156,7 @@ Also bind `class' to ((class color) (min-colors 89))."
    `(font-lock-comment-face ((,class (:foreground ,funk-green-4))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,funk-green))))
    `(font-lock-constant-face ((,class (:foreground ,funk-blue))))
-   `(font-lock-doc-face ((t (:foreground ,funk-green+2))))
+   `(font-lock-doc-face ((t (:foreground ,funk-green-1))))
    `(font-lock-function-name-face
      ((,class (:foreground ,funk-cyan :weight bold))))
    `(font-lock-keyword-face ((,class (:foreground ,funk-yellow :weight bold))))
