@@ -142,4 +142,4 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-source /home/paul/emsdk/emsdk_env.sh
+# source /home/paul/emsdk/emsdk_env.sh
