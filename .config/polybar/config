@@ -183,7 +183,7 @@ expand-right = true
 format-spacing = 1
 
 label-open = 
-label-open-foreground = ${xrdb:color1}
+label-open-foreground = ${xrdb:color9}
 label-close =  cancel
 label-close-foreground = ${xrdb:color7}
 label-separator = |
