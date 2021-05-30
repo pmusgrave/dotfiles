@@ -1,7 +1,7 @@
 [
   {
     "command": [
-      "/usr/bin/emacs-26.3"
+      "/usr/bin/emacs"
     ],
     "working_directory": "/home/paul"
   }

@@ -12,7 +12,7 @@
   "layout": "splith",
   "name": "2",
   "orientation": "horizontal",
-  "percent": 0.3333333333333333,
+  "percent": null,
   "scratchpad_state": "none",
   "sticky": false,
   "type": "workspace",
@@ -30,7 +30,7 @@
         "height": 1454
       },
       "layout": "splith",
-      "name": "emacs-26.3@paul-laptop",
+      "name": "emacs@paul-laptop",
       "orientation": "none",
       "percent": 1.0,
       "scratchpad_state": "none",
@@ -40,7 +40,7 @@
       "swallows": [
         {
           "class": "^Emacs$",
-          "instance": "^emacs\\-26_3$"
+          "instance": "^emacs$"
         }
       ]
     }
