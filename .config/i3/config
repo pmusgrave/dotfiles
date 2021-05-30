@@ -249,9 +249,9 @@ set_from_resource $magenta_bright color13 #000000
 set_from_resource $cyan_bright color14 #000000
 set_from_resource $white_bright color15 #000000
 #color: border  backgr. text  indicator
-client.focused #000000 $black $white $black
-client.focused_inactive #000000 $black $white $black
-client.unfocused $black $black $yellow $blue
+client.focused #000000 $black $magenta $black
+client.focused_inactive #000000 $black $blue $black
+client.unfocused $black $black color7 $blue
 client.urgent $black $black $red $blue
 client.placeholder $black $black green $blue
 client.background $black

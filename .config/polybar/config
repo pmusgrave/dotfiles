@@ -48,12 +48,12 @@ label-mode-background = ${xrdb:color2}
 
 label-focused = %index%
 label-focused-background = ${xrdb:color0}
-label-focused-foreground = ${xrdb:color7}
+label-focused-foreground = ${xrdb:color9}
 label-focused-padding = 2
 
 label-unfocused = %index%
 label-unfocused-background = ${xrdb:color0}
-label-unfocused-foreground = ${xrdb:color2}
+label-unfocused-foreground = ${xrdb:color4}
 label-unfocused-padding = 2
 
 label-visible = %index%

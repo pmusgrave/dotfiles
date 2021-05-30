@@ -1,12 +1,13 @@
 // custom color scheme definitions
-#define COLOR_BACKGROUND #282828
-#define COLOR_TEXT_NORMAL #00FF66
-#define COLOR_TEXT_NORMAL_BRIGHT #33ff00
-#define COLOR_TEXT_WARN #ffb000
-#define COLOR_TEXT_WARN_BRIGHT #ffcc00
-#define COLOR_TEXT_ERR #a64253
-#define COLOR_TEXT_ERR_BRIGHT #af0000
-#define COLOR_BLUE #748cab
-#define COLOR_MAGENTA #a64253
-#define COLOR_CYAN #00afff
-#define COLOR_WHITE #ffffff
+#define COLOR_BACKGROUND #050d1b
+#define COLOR_FOREGROUND #e6e6e6
+#define COLOR_TEXT_NORMAL #c548a5
+#define COLOR_TEXT_NORMAL_BRIGHT #e60068
+#define COLOR_TEXT_WARN #dc1010
+#define COLOR_TEXT_WARN_BRIGHT #e3f728
+#define COLOR_TEXT_ERR #ffb000
+#define COLOR_TEXT_ERR_BRIGHT #e70d00
+#define COLOR_BLUE #af75cb
+#define COLOR_MAGENTA #c548a5
+#define COLOR_CYAN #0abdc6
+#define COLOR_WHITE #e6e6e6
