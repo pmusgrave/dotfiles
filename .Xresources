@@ -27,7 +27,7 @@ URxvt*cursorBlink:                true
 URxvt*saveLines:                  5000
 URxvt*internalBorder: 5
 URxvt.geometry: 90x30
-URxvt.background: [90]#1E272B
+URxvt.background: [80]#1E272B
 
 rofi.color-enabled: true
 rofi.color-window: #1E272B, #9D6A47, #9D6A47
@@ -54,3 +54,6 @@ URxvt.keysym.Control-Up:     \033[1;5A
 URxvt.keysym.Control-Down:   \033[1;5B
 URxvt.keysym.Control-Left:   \033[1;5D
 URxvt.keysym.Control-Right:  \033[1;5C
+
+URxvt.iso14755: false
+URxvt.iso14755_52: false
