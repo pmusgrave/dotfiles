@@ -31,6 +31,9 @@ URxvt*internalBorder: 5
 URxvt.geometry: 90x30
 URxvt.background: COLOR_BACKGROUND
 
+URxvt.iso14755: false
+URxvt.iso14755_52: false
+
 rofi.color-enabled: true
 rofi.color-window: COLOR_BACKGROUND, COLOR_TEXT_WARN, COLOR_TEXT_WARN
 rofi.color-normal: COLOR_BACKGROUND, COLOR_TEXT_WARN, COLOR_BACKGROUND, COLOR_BACKGROUND, COLOR_WHITE
