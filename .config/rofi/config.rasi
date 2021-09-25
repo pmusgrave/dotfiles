@@ -1,0 +1,13 @@
+configuration {
+    separator-style: "solid";
+    sidebar-mode: "false";
+    lines: "5";
+    font: "Source Code Pro Semibold 10.5";
+    bw: "1";
+    columns: "2";
+    padding: "5";
+    fixed-num-lines: "true";
+    hide-scrollbar: "true";
+    dpi: "220";
+}
+@theme "/usr/share/rofi/themes/Pop-Dark.rasi"
