@@ -7,7 +7,8 @@
  ;; If there is more than one, they won't work right.
  '(ansi-color-faces-vector
    [default default default italic underline success warning error])
- '(custom-enabled-themes '(misterioso))
+ '(column-number-mode t)
+ '(custom-enabled-themes '(wombat))
  '(global-linum-mode t)
  '(global-visual-line-mode t)
  '(ido-enable-flex-matching t)
@@ -16,7 +17,8 @@
  '(inhibit-startup-screen t)
  '(initial-scratch-message nil)
  '(menu-bar-mode nil)
- '(package-selected-packages '(adaptive-wrap))
+ '(package-selected-packages '(tramp-theme adaptive-wrap))
+ '(require-final-newline t)
  '(scroll-bar-mode nil)
  '(server-mode t)
  '(tool-bar-mode nil))
