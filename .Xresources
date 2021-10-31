@@ -21,7 +21,7 @@
 *color14: #0cbee4
 *color15: #c5c8c6
 
-URxvt.font: xft:Source Code Pro:size=10.5
+URxvt.font: xft:ShareTechMono:size=11
 URxvt.depth:                      32
 URxvt*scrollBar:                  false
 URxvt*mouseWheelScrollPage:       false
