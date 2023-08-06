@@ -1,8 +1,8 @@
 [bar/i3wmthemer_bar]
-monitor = DVI-D-0
+monitor = DP-0
 bottom = true
 width = 100%
-height = 32
+height = 48
 radius = 0
 fixed-center = false
 
@@ -35,40 +35,43 @@ tray-position =
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-[bar/i3wmthemer_bar_second_monitor]
-monitor = DVI-D-1
-bottom = true
-width = 100%
-height = 32
-radius = 0
-fixed-center = false
+dpi-x = 180
+dpi-y = 180
 
-background = #1E272B
-foreground = #EAD49B
+;[bar/i3wmthemer_bar_second_monitor]
+;monitor = DP-1
+;bottom = true
+;width = 100%
+;height = 32
+;radius = 0
+;fixed-center = false
 
-line-size = 3
-line-color =
+;background = #1E272B
+;foreground = #EAD49B
 
-border-size = 0
-border-color =
+;line-size = 3
+;line-color =
 
-padding-left = 0
-padding-right = 2
+;border-size = 0
+;border-color =
 
-module-margin-left = 0
-module-margin-right = 2
+;padding-left = 0
+;padding-right = 2
 
-font-0 = "Source Code Pro Semibold:size=10;1"
-font-1 = "Font Awesome 5 Free:style=Solid:size=10;1"
-font-2 = "Font Awesome 5 Brands:size=10;1"
+;module-margin-left = 0
+;module-margin-right = 2
 
-modules-left = i3
-
-tray-position =
+;font-0 = "Source Code Pro Semibold:size=10;1"
+;font-1 = "Font Awesome 5 Free:style=Solid:size=10;1"
+;font-2 = "Font Awesome 5 Brands:size=10;1"
+;
+;modules-left = i3
+;
+;tray-position =
 ;tray-padding =
 
-cursor-click = pointer
-cursor-scroll = ns-resize
+;cursor-click = pointer
+;cursor-scroll = ns-resize
 
 [module/i3]
 type = internal/i3
