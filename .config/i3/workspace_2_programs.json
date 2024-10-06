@@ -1,0 +1,8 @@
+[
+  {
+    "command": [
+      "/usr/bin/emacs-lucid"
+    ],
+    "working_directory": "/home/paul"
+  }
+]

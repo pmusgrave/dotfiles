@@ -293,3 +293,10 @@ mouse_warping none
 #bindsym $mod+Mod1+l exec "i3lock-fancy"
 bindsym $mod+Mod1+l exec "/home/paul/bin/lock.sh"
 exec_always ~/.config/polybar/polybar.sh &
+
+# automate initial programs on boot
+# exec --no-startup-id sleep 1; i3-resurrect restore -w 1 -d /home/paul/.config/i3/ ; sleep 1;
+# exec --no-startup-id sleep 1; i3-resurrect restore -w 2 -d /home/paul/.config/i3/ ; sleep 1;
+# exec --no-startup-id sleep 1; i3-resurrect restore -w 3 -d /home/paul/.config/i3/ ; sleep 1;
+# exec --no-startup-id sleep 1; i3-resurrect restore -w 4 -d /home/paul/.config/i3/ ; sleep 1;
+exec --no-startup-id /home/paul/bin/i3-startup.sh

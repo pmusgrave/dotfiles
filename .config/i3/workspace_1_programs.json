@@ -1,0 +1,8 @@
+[
+  {
+    "command": [
+      "urxvt"
+    ],
+    "working_directory": "/home/paul"
+  }
+]
