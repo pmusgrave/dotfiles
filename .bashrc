@@ -143,3 +143,7 @@ unset __conda_setup
 # <<< conda initialize <<<
 
 # source /home/paul/emsdk/emsdk_env.sh
+
+
+export LC_ALL="en_US.UTF-8"
+export LANGUAGE="en_US.UTF-8"

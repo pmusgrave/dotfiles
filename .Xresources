@@ -58,4 +58,4 @@ URxvt.keysym.Control-Right:  \033[1;5C
 URxvt.iso14755: false
 URxvt.iso14755_52: false
 
-Xft.dpi: 192
+Xft.dpi: 168
